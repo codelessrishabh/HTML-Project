@@ -1,0 +1,932 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#navBar{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    height: 70px;
+    background-color:#FFFFFF;
+}
+
+
+
+#logo{
+
+    position: relative;
+    left: 150px;
+    top: 10px;
+    display: inline-block;
+
+}
+#searchBar{
+    display: flex;
+}
+#searchIcon{
+    position: absolute;
+    left: 350px;
+    top: 25px;
+    height: 19px;
+
+}
+#inputBox{
+    display: inline-block;
+    position: absolute;
+    left: 385px;
+    top: 15px;
+}
+#inputBar{
+    width: 476px;
+    height:37px ;
+    border: 2px solid lightgray;
+    border-left: transparent;
+}
+#searchIcon{
+    border: 2px solid lightgray;
+    border-right: transparent;
+    /* height: 35px;
+    width: 35px; */
+    position: absolute;
+    top:15px;
+    padding: 9px;
+}
+#searchButtonDiv{
+    display: inline-block;
+    position: absolute;
+    left: 875px;
+    top: 17px;
+    /* padding: 8px; */
+}
+#searchButton{
+    height: 36px;
+    width: 70px;
+    background-color: #f84464;
+    border: transparent;
+    color: white; 
+    border-radius: 8%;
+
+}
+#cities{
+    position: absolute;
+    left: 1175px;
+    top: 17px;
+    border: none;
+    font: 14px Roboto , sans-serif;
+
+}
+#inputbar{
+    height: 19px;
+    width: 77.69px;
+    
+}
+#signindiv{
+    
+    position: absolute;
+    left: 1300px;
+    top: 17px;
+    
+    
+}
+#signin{
+    text-decoration: none;
+    height: 25px;
+    width: 67px;
+    background-color: #f84464;
+    font: 12px Roboto , sans-serif;
+    color: #FFFFFF;
+    justify-content: center;
+    align-self: center;
+    border: transparent;
+    border-radius: 8%;
+}
+#Recommendmovies{
+    height: 28.08px;
+    position: absolute;
+    top: 453.94px;
+    
+}
+#recmov{
+    width:300px ;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: absolute;
+    left: 150px;
+    color: #333333;
+}
+#Seeall{
+    height: 20.01px;
+    width: 60px;
+    position: absolute;
+    left: 1300px;
+    top:12px;
+    color: #DC3558 ;
+    
+    font-size: 14px ;
+    font-family: sans-serif;
+}
+#promo{
+    height: 307px;
+    position: absolute;
+    top: 15px;
+    
+}
+
+
+#slidingpic{
+   position:absolute;
+   top: 104px;
+   
+}
+
+
+
+
+.gift_button{
+    padding: 10px;
+    text-decoration: none;
+ 
+
+
+   color: black;
+}
+#options{
+    display: flex;
+    padding-left: 40px;
+    background-color: #f5f5f5;
+    height: 38px;
+    
+
+}
+.category_button{
+    font-family: sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    color: #333333;
+}
+#location{
+    border: transparent;
+    padding-top: 5px;
+    font-size: 14px;
+    width: 95px;
+    font-family: sans-serif;
+}
+#category{
+    padding-top: 2px;
+    font-size: 14px;
+    font-weight: lighter;
+    padding-left: 100px;
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+.gift_button{
+    font-size: 12px;
+    color: #333333;
+    font-family: sans-serif;
+}
+#gift{
+    padding-top: 2px;
+    height: 10px;
+    width: 302.96px;
+    display: flex;
+    padding-left: 185px;
+ }
+
+
+
+
+
+#backg{
+    height: 480px ;
+    width: 1527.2px;
+    background-color: #1a1a1a;
+    position: absolute;
+    top: 106px;
+    left:-8.4px;
+}
+
+#template{
+    
+  
+    position: absolute;
+    top: 106px;
+    left:-8.4px;
+    margin: 0px 48px; 
+
+    height: 416px ;
+    width: 1440px;
+    background-color: black;
+    padding: 32px 0px;
+    max-width: 1440px;
+    background-image: linear-gradient(90deg, rgb(26, 26, 26) 24.97%, rgb(26, 26, 26) 38.3%, rgba(26, 26, 26, 0.04) 97.47%, rgb(26, 26, 26) 100%), url(https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/pushpa-the-rule--part-2-et00356724-1729771762.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center ;
+    
+    
+}
+#movpic{
+    display: inline;
+}
+
+
+.movpicimg{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+.movpiccap{
+    font: 12px Roboto;
+    font-family: sans-serif;
+    color: #ffffff;
+    height: 19.2px;
+    width: 245px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+
+}
+
+#pushpa2{
+    
+    height: 416px ;
+    width: 1240px;
+    margin: 0px 100px ;
+    position: absolute;
+  
+    top: 32px;
+
+           
+}
+#details{
+    position: relative;
+    top: -410px;
+    left: 260px;
+    height: 341.2px;
+    width: 520px;
+    padding: 0px 0px 0px 32px;
+    display: block;
+}
+.movname{
+    font: 36px Roboto;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: bolder;
+    height: 42px;
+    width: 488px;
+
+}
+.interest{
+    height: 48px;
+    width: 366.4px;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 8px 16px;
+   align-content: center;
+    
+}
+.textin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c1{
+    font: 16px Roboto;
+    font-family: sans-serif;
+    color: #ffffff;
+    height: 19.2px;
+    width: 170px;
+    padding: 2px 0px 0px 4px;
+
+    i{
+        width: 20px;
+    }
+}
+.c2{
+    font: 10px Roboto;
+    font-family: sans-serif;
+    color: #ffffff;
+    height: 16px;
+    width: 195.21px;
+}
+.c3{
+    font: 11px Roboto;
+    font-family: sans-serif;
+    color: #2B3148;
+    height: 32px;
+    width: 93.58px;
+    background-color: #F2F5F9;
+    padding: 8px 12px;
+    border-radius: 2px;
+    border: none;
+    position: relative;
+    top: 8px;
+    
+    
+}
+#sel{
+    height: 72px;
+    width: 488px;
+    
+}
+.dimension{
+    display: flex;
+    height: 24px;
+    width: 319.8px;
+    background-color: #e5e5e5;
+    padding: 2px 8px ;
+    font: 16px Roboto;
+    font-family: sans-serif;
+    color: #000000;
+    border-radius: 2px;
+    align-items: center;
+    margin: 8px 8px 0px 0px ;
+    justify-content: space-evenly;
+    position: relative;
+    top:20px;
+    
+
+
+}
+a{
+    
+color: #000000;
+    text-decoration: none;
+    
+}
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.language{
+    display: flex;
+    height: 24px;
+    width: 365.94px;
+    background-color: #e5e5e5;
+    margin: 8px 0px 0px;
+    padding: 2px 8px 2px 8px;
+    font: 16px Roboto;
+    font-family: sans-serif;
+    color: #000000;
+    border-radius: 2px;
+    justify-content: space-evenly;
+    position: relative;
+    top:20px;
+    align-items: center;
+
+
+}
+a{
+    
+    color: #000000;
+        text-decoration: none;
+        
+    }
+    a:hover {
+        color: #000000;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .time{
+        height: 24px;
+        width: 488px;
+        font: 16px Roboto;
+    font-family: sans-serif;
+    color: #ffffff;
+    margin: 16px 0px 0px;
+    position: relative;
+    top:20px;
+
+    a{
+        color: #FFFFFF ;
+        font-family: sans-serif;
+    }
+    }
+   .bookbut{
+    height: 48px;
+    width: 214.48px;
+    font: 16px Roboto;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #f84464;
+    border-radius: 9px;
+    position:absolute;
+    top:292px;
+    border: none;
+   
+   }
+   #aboutmov{
+    height: 70px;
+    width: 781.9px;
+    padding: 32px 0px;
+    position:absolute;
+    top: 584px;
+    left:148px;
+   }
+    .abtmov{
+    font: 24px Roboto;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #000000;
+    }
+    .rulebeg{
+        padding: 16px 0px 0px;
+        font: 16px Roboto;
+    font-family: sans-serif;
+    }
+    #cast{
+    height: 242px;
+    width: 926px;
+    padding: 32px 0px;
+    position:absolute;
+    top: 718px;
+    left:148px;
+    border-top: 0.1px ;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0.1px ;
+    border-color: #0a0a0a1c;
+    border-style:solid;
+    
+
+
+    }
+    .casttxt{
+        font: 24px Roboto;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #000000;
+    }
+    .castname{
+        height: 196px;
+        width: 926px;
+        padding: 16px 0px 0px;
+        display: flex;
+        a{
+            text-decoration: none;
+        }
+        
+    }
+    
+    .standpic{
+        border-radius: 60px;
+        width:120px;
+         height:120px;
+    }
+    .aaname{
+        font: 16px Roboto;
+        color: #000000;
+        font-family: sans-serif;
+        padding: 8px 0px 0px;
+        margin: 0px;
+        height: 24px;
+        width: 120px;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+    .aaname1{
+        font: 14px Roboto;
+        font-family: sans-serif;
+        color: #666666;
+        margin: 0px;
+        height: 20px;
+        width: 120px;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+    .ffname1{
+        font: 14px Roboto;
+        font-family: sans-serif;
+        color: #666666;
+        margin: 0px;
+        height:40px;
+        width: 120px;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .rmname{
+        font: 16px Roboto;
+        color: #000000;
+        font-family: sans-serif;
+        padding: 8px 0px 0px;
+        margin: 0px;
+        height: 48px;
+        width: 120px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .fahadfaasil{
+        margin-left: 32px;
+       }
+    .Rashmika{
+        margin-left: 32px;
+       }
+       .Ramesh{
+        margin-left: 32px;
+       }
+      .Sunil{
+        margin-left: 32px;
+       } 
+        .Anasuya{
+            margin-left: 32px;
+           }
+
+
+           #Crew{
+            height: 242px;
+            width: 926px;
+            padding: 32px 0px;
+            position:absolute;
+            top: 1024px;
+            left:148px;
+            border-top: 0.1px ;
+            border-left: 0px;
+            border-right: 0px;
+            border-bottom: 0.1px ;
+            border-color: #0a0a0a1c;
+            border-style:solid;
+            
+        
+        
+            }
+            .Naveen{
+                margin-left: 32px;
+               }
+            .Ravi{
+                margin-left: 32px;
+               }
+               .Devi{
+                margin-left: 32px;
+               }
+              .Bose{
+                margin-left: 32px;
+               } 
+                .Navin{
+                    margin-left: 32px;
+                   }
+
+
+#mightlike{
+    height: 472px;
+    width: 1344px;
+    padding: 32px 0px ;
+    
+    position: absolute;
+    top: 1332px;
+    left: 148px;
+    a{
+        text-decoration: none;
+    }
+    
+}
+
+.ymal{
+    height: 30px;
+    width: 224.61px;
+    font: 24px Roboto;
+    color: #000000;
+    font-family:sans-serif;
+    margin: 0px;
+    font-weight: 600;
+    line-height: 30px;
+    
+    
+}
+.view{
+    height: 24px;
+    width: 88.54px;
+    font: 18px Roboto;
+    color: #dc354b;
+    font-family:sans-serif;
+    font-weight: 550;
+    
+   
+
+}
+#textymal{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+#movies{
+    height: 333px;
+     width: 1320px;
+   padding: 16px 0px 0px ;
+   display: flex;
+   justify-content: space-between;
+   
+    
+  
+ }
+
+ #movieTitle{
+    height: 24px;
+    width: 1320px;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .movieTitle{
+    height: 24px;
+    width: 222px;
+   
+    color: #222222;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 8px 0px 0px ;
+
+ }
+ 
+#movieImg{
+    height: 333px;
+    width: 222px;
+    border-radius: 8px 8px 0px 0px;
+}
+#moviecaption{
+    height: 37px ;
+    width: 1320px;
+    
+    
+    display: flex;
+    justify-content: space-between;
+    img{
+        height: 20px;
+        width: 20px;
+        margin: 0px 5px 0px 0px ;
+        position: relative;
+        top: 4px;
+    }
+}
+.moviecaption{
+    height: 25px;
+    width: 181px;
+    padding: 6px 29px 6px 12px ;
+    background-color: #000000;
+    a{
+        text-decoration: none;
+    font: 16px Roboto;
+    color: #eeeeee;
+    font-family: sans-serif;}
+    border-radius: 0px 0px 8px 8px ;
+
+}
+#report{
+    height: 16px ;
+    width: 926px;
+    padding: 16px 0px 36px;
+    position: absolute;
+    top: 1868px;
+    left: 148px;
+
+    a{
+        text-decoration: none;
+        font: 12px Roboto;
+    color: #666666;
+    font-family: sans-serif;
+
+
+    }
+}
+#bookpath{
+    height: 14.4px ;
+    width: 1250px;
+    padding: 15px;
+    margin: 0px 128px ;
+    position: absolute;
+    top: 1936px;
+    
+
+    a{
+        text-decoration: none;
+        font: 12px Roboto;
+    color: #aaabac;
+    font-family: sans-serif;
+
+
+    }
+
+}
+
+#bpbelow{
+    height: 30px;
+    width: 1519.2px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 1980.4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    background-color: #333338;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1519.2px;
+    position: absolute;
+    top: 2010.4px;
+    font-family: sans-serif;
+}
+#customerImg{
+    width: 100%;
+}
+#footer1{
+    padding-top: 25px;
+    color: rgb(165, 165, 165);
+    font-size: 12px;
+    font-weight: 400;
+    height: 76px;
+    width: 1250px;
+}
+#footerDesc1{
+    margin-top: 25px;
+    a{
+        color: rgb(127, 127, 127);
+        font-size: 11px;
+        text-decoration: none;
+    }
+    a:hover{
+        color: white;
+        transition-duration: 0.25s;
+    
+    }
+   
+}
+#footer2{
+    padding-top: 25px;
+    color: rgb(165, 165, 165);
+    font-size: 12px;
+    font-weight: 400;
+    height: 76px;
+    width: 1250px;
+}
+#footerDesc2{
+    margin-top: 25px;
+    a{
+        color: rgb(127, 127, 127);
+        font-size: 11px;
+        text-decoration: none;
+    }
+    a:hover{
+        color: white;
+        transition-duration: 0.25s;
+    
+    }
+   
+}
+#footer3{
+    padding-top: 25px;
+    color: rgb(165, 165, 165);
+    font-size: 12px;
+    font-weight: 400;
+    height: 76px;
+    width: 1250px;
+}
+#footerDesc3{
+    margin-top: 25px;
+    a{
+        color: rgb(127, 127, 127);
+        font-size: 11px;
+        text-decoration: none;
+    }
+    a:hover{
+        color: white;
+        transition-duration: 0.25s;
+    
+    }
+   
+}
+#footer4{
+    padding-top: 25px;
+    color: rgb(165, 165, 165);
+    font-size: 12px;
+    font-weight: 400;
+    height: 76px;
+    width: 1250px;
+}
+#footerDesc4{
+    margin-top: 25px;
+    a{
+        color: rgb(127, 127, 127);
+        font-size: 11px;
+        text-decoration: none;
+    }
+    a:hover{
+        color: white;
+        transition-duration: 0.25s;
+    
+    }
+   
+}
+#footer5{
+    padding-top: 25px;
+    color: rgb(165, 165, 165);
+    font-size: 12px;
+    font-weight: 400;
+    height: 76px;
+    width: 1250px;
+}
+#footerDesc5{
+    margin-top: 25px;
+    a{
+        color: rgb(127, 127, 127);
+        font-size: 11px;
+        text-decoration: none;
+    }
+    a:hover{
+        color: white;
+        transition-duration: 0.25s;
+    
+    }
+   
+}
+#photoLogo{
+    position: relative;
+    top: 40px;
+    display: flex;
+}
+.lines{
+    position: relative;
+    width: 675px;
+    top: 15px;
+    hr{
+        background-color: #5d5d5f;
+        border-color: rgb(127, 127, 127);
+        
+    }
+    
+}
+#line-1{
+   position: relative;
+   right: 20px;
+}
+#line-2{
+    position: relative;
+    left: 20px;
+}
+#socials{
+    position: relative;
+    display: flex;
+    top: 50px;
+    a{
+        text-decoration: none;
+        color: #5d5d5f;
+        height: 36px;
+        width: 36px;
+    }
+    i{
+        height: 100%;
+        width: 100%;
+    }
+    a:hover{
+        color: white;
+    }
+}
+.socials{
+    margin: 10px;
+}
+#copyright{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: #666666;
+}
+#copy-2{
+    width: 1500px;
+    text-align: center;
+ 
+}
